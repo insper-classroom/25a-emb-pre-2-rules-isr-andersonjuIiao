@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 const int BTN_PIN_R = 28;
-volatile int capture_flag = 0;
+volatile capture_flag = 0;
 
 // ERRO: cppcheck unitvar
 // ERRO: addon IsrVarVolatile
